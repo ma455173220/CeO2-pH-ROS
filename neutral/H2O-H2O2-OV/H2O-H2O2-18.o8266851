@@ -1,0 +1,35 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/local/8266851.r-man2
+CRY17_EXEDIR - directory with crystal executables: /home/561/hm1876/crystal/crystal17/bin/Linux-ifort14_XE_emt64
+CRY17_UTILS - running scripts and misc: /home/561/hm1876/crystal/crystal17/utils17/runcry17, runprop17
+CRY2K6_GRA - graphical scripts: /home/561/hm1876/crystal/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.out
+crystal executable in /home/561/hm1876/crystal/crystal17/bin/Linux-ifort14_XE_emt64/v1.0.2
+input data in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.d12
+creating temporary directory /jobfs/local/8266851.r-man2/tmp16179_hm1876
+scf guess from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.f9
+external geometry input from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.gui
+external geometry input saved in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18_inp.gui
+crystal job running in /jobfs/local/8266851.r-man2/tmp16179_hm1876 ...
+wave function binary file /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.f9
+file fort.98 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.f98
+history of geometry during optimization - file optc001 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc001
+file fort.20 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.f20
+file fort.33 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.xyz
+geometry input file fort.34 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.gui
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.ppan
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.ppan
+temporary directory /jobfs/local/8266851.r-man2/tmp16179_hm1876 removed
+
+======================================================================================
+                  Resource Usage on 2019-04-26 01:25:43:
+   Job Id:             8266851.r-man2
+   Project:            ep0
+   Exit Status:        0
+   Service Units:      43.20
+   NCPUs Requested:    28                     NCPUs Used: 28              
+                                           CPU Time Used: 34:27:51                                   
+   Memory Requested:   128.0GB               Memory Used: 10.51GB         
+   Walltime requested: 48:00:00            Walltime Used: 01:14:03        
+   JobFS requested:    60.0GB                 JobFS used: 131.79MB        
+======================================================================================

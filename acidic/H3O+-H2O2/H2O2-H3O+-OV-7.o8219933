@@ -1,0 +1,38 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/local/8219933.r-man2
+CRY17_EXEDIR - directory with crystal executables: /home/561/hm1876/crystal/crystal17/bin/Linux-ifort14_XE_emt64
+CRY17_UTILS - running scripts and misc: /home/561/hm1876/crystal/crystal17/utils17/runcry17, runprop17
+CRY2K6_GRA - graphical scripts: /home/561/hm1876/crystal/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.out
+crystal executable in /home/561/hm1876/crystal/crystal17/bin/Linux-ifort14_XE_emt64/v1.0.2
+input data in /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.d12
+creating temporary directory /jobfs/local/8219933.r-man2/tmp37861_hm1876
+scf guess from /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.f9
+external geometry input from /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.gui
+external geometry input saved in /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7_inp.gui
+crystal job running in /jobfs/local/8219933.r-man2/tmp37861_hm1876 ...
+wave function binary file /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.f9
+file fort.98 saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.f98
+history of geometry during optimization - file optc001 optc004 optc005 optc006 optc007 optc008 optc009 optc010 optc011 optc012 optc013 optc014 optc015 optc017 optc018 optc019 optc020 optc021 optc022 saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc001 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc004 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc005 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc006 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc007 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc008 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc009 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc010 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc011 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc012 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc013 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc014 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc015 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc017 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc018 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc019 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc020 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc021 /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optstory/optc022
+file HESSOPT.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.hessopt
+file OPTINFO.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.optinfo
+file SCFOUT.LOG saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.SCFLOG
+file fort.20 saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.f20
+file fort.33 saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.xyz
+geometry input file fort.34 saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.gui
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.ppan
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-H2O2/CeO2-7.ppan
+temporary directory /jobfs/local/8219933.r-man2/tmp37861_hm1876 removed
+
+======================================================================================
+                  Resource Usage on 2019-04-26 06:09:07:
+   Job Id:             8219933.r-man2
+   Project:            ep0
+   Exit Status:        0
+   Service Units:      766.24
+   NCPUs Requested:    28                     NCPUs Used: 28              
+                                           CPU Time Used: 612:46:49                                  
+   Memory Requested:   128.0GB               Memory Used: 15.65GB         
+   Walltime requested: 48:00:00            Walltime Used: 21:53:33        
+   JobFS requested:    16.0GB                 JobFS used: 141.66MB        
+======================================================================================

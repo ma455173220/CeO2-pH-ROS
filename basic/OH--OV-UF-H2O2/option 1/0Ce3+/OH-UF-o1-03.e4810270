@@ -1,0 +1,33 @@
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/FREQINFO.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/optc*': No such file or directory
+find: '/jobfs/4810270.gadi-pbs/tmp*/opt*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/FREQINFO.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/optc*': No such file or directory
+find: '/jobfs/4810270.gadi-pbs/tmp*/opt*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/FREQINFO.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/optc*': No such file or directory
+find: '/jobfs/4810270.gadi-pbs/tmp*/opt*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/FREQINFO.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/optc*': No such file or directory
+find: '/jobfs/4810270.gadi-pbs/tmp*/opt*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/FREQINFO.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/FREQINFO.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/FREQINFO.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/FREQINFO.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/FREQINFO.DAT': No such file or directory
+cp: cannot stat '/jobfs/4810270.gadi-pbs/tmp*/opta*': No such file or directory
+ls: No match.
+mkdir: cannot create directory '/scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-UF-H2O2/option1/0Ce3+/CeO2-03.optstory': File exists
+ls: No match.

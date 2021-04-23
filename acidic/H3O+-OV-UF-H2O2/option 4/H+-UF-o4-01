@@ -1,0 +1,106 @@
+#!/bin/bash
+#PBS -P ep0
+#PBS -q normal
+#PBS -l walltime=48:00:00,jobfs=13GB
+#PBS -l mem=96GB
+#PBS -l ncpus=48
+#PBS -l storage=scratch/ep0+gdata/ep0
+
+
+source /g/data/ep0/crystal17/cry17-jobfs.bashrc
+
+                                                        #If you have multiple jobs running in the same folder
+                                                        #make sure you change the temorary directory location
+
+TMPFOLDER="tmp-CeO2-01"                                        #CHANGE TEMPORARY DIRECTORY NAME
+
+JOBNAME="CeO2-01"                 #CHANGE FILENAME
+
+SCRIPTNAME="H+-UF-o4-01"
+NEXT_SCRIPTNAME="H+-UF-o4-02"
+
+                                                        #Please ignore everything below this line
+                                                        ##########################################################
+
+
+cd $PBS_O_WORKDIR                                       #This line allows the job to start from the bash script location (removes the need for ../../../../../short/etc...)
+
+PBS_ID=`echo $0 | awk -F '.' '{print $1}' | awk -F '/' '{print $NF}'`
+#echo $PBS_ID
+HOURS=`grep -m 1 'walltime' $0 | awk -F ':' '{print $1}' | awk -F '=' '{print $NF}'`
+MINS=`grep -m 1 'walltime' $0 | awk -F ':' '{print $2}' | awk -F '=' '{print $NF}'`
+SECOND=`grep -m 1 'walltime' $0 | awk -F ':' '{print $3}' | awk -F ',' '{print $1}'`
+TIME_APPLIED=`expr $HOURS \* 3600 + $MINS \* 60 + $SECOND`
+TIME_APPLIED_EDIT=`expr $TIME_APPLIED - 120`         # 15 mins ealier since as the last backup cannot occur when the job is killed
+
+tmp_check () {
+TMP=$1                                          #This code will create a new temporary directory if it does not exist in the folder already
+        if [ -d "$TMP" ]
+                then
+                        rm -r $TMP/*
+                        echo "tmp directory exists!" >> $TMP/Backup.log
+                        if [ ! -d "OPINFO" ] ; then
+                            mkdir $TMP/OPTINFO
+                        else 
+                            rm -r $TMP/OPTINFO/*
+                        fi
+                        if [ ! -d "FORT" ] ; then
+                            mkdir $TMP/FORT
+                        else 
+                            rm -r $TMP/FORT/*
+                        fi
+                else
+                        mkdir $TMP
+                        echo "tmp directory not found! New tmp directory automatically created." >> $TMP/Backup.log
+                        mkdir $TMP/OPTINFO
+                        mkdir $TMP/FORT
+        fi
+}
+
+do_copy () {                                            #This code will automatically backup your data from the JOB_FS directory into the tmp directory every hour
+MAX=$1                                                  
+TMP=$2
+
+STARTTIME=$(date +%s)
+
+COUNTER=0
+echo "$COUNTER - Job Started at $(date)" >> $TMP/Backup.log 
+while [ $COUNTER -le $MAX ]; do
+	sleep 600
+	cp $PBS_JOBFS/tmp*/fort.79 $PBS_JOBFS/tmp*/HESSOPT.DAT $PBS_JOBFS/tmp*/FREQINFO.DAT $PBS_JOBFS/tmp*/opta* $PBS_JOBFS/tmp*/optc* $PBS_JOBFS/tmp*/SCFOUT.LOG  $TMP/ 
+	CYCLE_OPT=$(find ${PBS_JOBFS}/tmp*/opt* -exec basename {} \; | tr -c '[0-9]' '\n' | sort | tail -1)
+	if [ -n "$CYCLE_OPT" ] ; then
+ 		if [ ! -e $TMP/FORT/fort.20-$CYCLE_OPT ] ; then
+			cp $PBS_JOBFS/tmp*/fort.20 $TMP/FORT/fort.20-$CYCLE_OPT
+     			cp $PBS_JOBFS/tmp*/OPTINFO.DAT $TMP/OPTINFO/OPTINFO.DAT-$CYCLE_OPT
+	 		quantity_of_fort=$(find $TMP/FORT/fort* | wc -l)
+    			if [ $quantity_of_fort -gt '4' ]; then
+	 			find $TMP/FORT/fort* | sort | head -1 | xargs rm -rf
+    			fi    
+ 		fi
+	fi
+	(( COUNTER++ ))
+	echo "$COUNTER - Backed up at $(date)" >> $TMP/Backup.log
+	~/energy_analyse.sh $JOBNAME.out 1>/dev/null
+        ENDTIME=$(date +%s)
+        DIFF=$(expr $ENDTIME - $STARTTIME)
+        DIFF_EDIT=$(expr $DIFF + 600)
+        if [[ $DIFF_EDIT -gt $TIME_APPLIED_EDIT ]] ; then
+		echo "$COUNTER - Final backup at $(date)" >> $TMP/Backup.log
+                DD=`date +%Y-%m-%d`
+                date=`date`
+		echo "$PBS_O_WORKDIR/$JOBNAME.d12 Finished at $date" >> /scratch/ep0/hm1876/LOGFILE/$DD.log
+		~/input_creater.sh $JOBNAME.d12 $SCRIPTNAME 1> /dev/null
+		/opt/pbs/default/bin/qsub $NEXT_SCRIPTNAME
+		/opt/pbs/default/bin/qdel $PBS_ID
+	fi
+done
+}
+
+MAXCOUNTER=1000                                        #This is the number of hours it will back up for (-1 as the last backup cannot occur when the job is killed at the last hour)
+tmp_check $TMPFOLDER                                    #Runs the tmp_check code for the directory name allocated in TMPFOLDER
+do_copy $MAXCOUNTER $TMPFOLDER &                        #Runs the automatic copy code with the MAXCOUNTER and TMPFOLDER inputs
+
+/g/data/ep0/crystal17/utils17/runcry17-MPP $JOBNAME $JOBNAME $JOBNAME $JOBNAME
+
+kill %1                                                 #Kills the script if the job is finished/killed prematurely

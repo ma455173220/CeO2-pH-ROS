@@ -1,0 +1,40 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/local/8409527.r-man2
+CRY17_EXEDIR - directory with crystal executables: /home/561/hm1876/crystal/crystal17/bin/Linux-ifort14_XE_emt64
+CRY17_UTILS - running scripts and misc: /home/561/hm1876/crystal/crystal17/utils17/runcry17, runprop17
+CRY2K6_GRA - graphical scripts: /home/561/hm1876/crystal/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.out
+crystal executable in /home/561/hm1876/crystal/crystal17/bin/Linux-ifort14_XE_emt64/v1.0.2
+input data in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.d12
+creating temporary directory /jobfs/local/8409527.r-man2/tmp26618_hm1876
+scf guess from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.f9
+external geometry input from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.gui
+external geometry input saved in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18_inp.gui
+opt info from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optinfo
+file fort.20 from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.f20
+crystal job running in /jobfs/local/8409527.r-man2/tmp26618_hm1876 ...
+wave function binary file /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.f9
+file fort.98 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.f98
+history of geometry during optimization - file optc041 optc042 optc043 optc044 optc045 optc047 optc048 optc049 optc050 optc052 optc054 optc055 optc057 optc059 optc060 optc061 optc062 optc063 optc065 optc066 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc001 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc041 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc042 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc043 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc044 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc045 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc047 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc048 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc049 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc050 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc052 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc054 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc055 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc057 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc059 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc060 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc061 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc062 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc063 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc065 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optstory/optc066
+file HESSOPT.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.hessopt
+file OPTINFO.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.optinfo
+file SCFOUT.LOG saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.SCFLOG
+file fort.20 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.f20
+file fort.33 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.xyz
+geometry input file fort.34 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.gui
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.ppan
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-18.ppan
+temporary directory /jobfs/local/8409527.r-man2/tmp26618_hm1876 removed
+
+======================================================================================
+                  Resource Usage on 2019-04-30 17:05:21:
+   Job Id:             8409527.r-man2
+   Project:            ep0
+   Exit Status:        0
+   Service Units:      1125.19
+   NCPUs Requested:    28                     NCPUs Used: 28              
+                                           CPU Time Used: 899:55:39                                  
+   Memory Requested:   128.0GB               Memory Used: 21.15GB         
+   Walltime requested: 48:00:00            Walltime Used: 32:08:54        
+   JobFS requested:    60.0GB                 JobFS used: 138.42MB        
+======================================================================================

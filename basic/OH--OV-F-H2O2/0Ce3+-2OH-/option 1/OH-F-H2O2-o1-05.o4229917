@@ -1,0 +1,38 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/4229917.gadi-pbs
+CRY17_EXEDIR - directory with crystal executables: /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64
+CRY17_UTILS - running scripts and misc: /g/data/ep0/crystal17/utils17/runcry17, runprop17, runcry17-MPP
+CRY2K6_GRA - graphical scripts: /g/data/ep0/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.out
+crystal executable in /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64/v1.0.2
+input data in /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.d12
+creating temporary directory /jobfs/4229917.gadi-pbs/tmp21626_hm1876
+scf guess from /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.f9
+external geometry input from /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.gui
+external geometry input saved in /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05_inp.gui
+opt info from /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optinfo
+crystal job running in /jobfs/4229917.gadi-pbs/tmp21626_hm1876 ...
+wave function binary file /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.f9
+history of geometry during optimization - file optc130 optc131 optc132 optc133 optc134 optc135 optc136 optc137 optc138 optc139 optc140 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc130 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc131 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc132 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc133 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc134 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc135 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc136 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc137 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc138 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc139 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optstory/optc140
+file HESSOPT.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.hessopt
+file OPTINFO.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.optinfo
+file SCFOUT.LOG saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.SCFLOG
+file fort.20 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.f20
+file fort.33 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.xyz
+geometry input file fort.34 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.gui
+file PPAN.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.ppan
+file PPAN.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-05.ppan
+temporary directory /jobfs/4229917.gadi-pbs/tmp21626_hm1876 removed
+
+======================================================================================
+                  Resource Usage on 2020-04-09 17:54:16:
+   Job Id:             4229917.gadi-pbs
+   Project:            ep0
+   Exit Status:        0
+   Service Units:      880.83
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 439:49:23                                  
+   Memory Requested:   96.0GB                Memory Used: 20.44GB         
+   Walltime requested: 48:00:00            Walltime Used: 09:10:31        
+   JobFS requested:    13.0GB                 JobFS used: 173.02MB        
+======================================================================================

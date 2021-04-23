@@ -1,0 +1,8 @@
+# File Starting Date: 07 05 2020 TIME 18:45:16.3
+# Directory: /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3
+# File: /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3/CeO2-09.out
+# TOLDEE: 6
+# MAXCYCLE: 1024
+# CYCLE_NUMBER | TOTAL_ENERGY (Ha) | SCF_CYCLES | MAX_G.(0.00045) | RMS_G.(0.00030) | MAX_D.(0.00180) | RMS_D.(0.00120) | TRUST_R.(4.00000)
+ 	 1 	 -17736.5821841740 	 156	 0.075557 NO	 0.020946 NO	 0.000000 	 0.000000 	           0.000
+# Done!

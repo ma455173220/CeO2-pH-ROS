@@ -1,0 +1,39 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/local/1296955.r-man2
+CRY17_EXEDIR - directory with crystal executables: /home/561/hm1876/crystal/crystal17/bin/Linux-ifort17_XE_emt64
+CRY17_UTILS - running scripts and misc: /home/561/hm1876/crystal/crystal17/utils17/runcry17, runprop17
+CRY2K6_GRA - graphical scripts: /home/561/hm1876/crystal/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.out
+crystal executable in /home/561/hm1876/crystal/crystal17/bin/Linux-ifort17_XE_emt64/v1.0.2
+input data in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.d12
+creating temporary directory /jobfs/local/1296955.r-man2/tmp23213_hm1876
+scf guess from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.f9
+external geometry input from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.gui
+external geometry input saved in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28_inp.gui
+opt info from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.optinfo
+crystal job running in /jobfs/local/1296955.r-man2/tmp23213_hm1876 ...
+wave function binary file /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.f9
+file fort.98 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.f98
+history of geometry during optimization - file optc027 optc028 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.optstory/optc027 /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.optstory/optc028
+file HESSOPT.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.hessopt
+file OPTINFO.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.optinfo
+file SCFOUT.LOG saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.SCFLOG
+file fort.20 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.f20
+file fort.33 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.xyz
+geometry input file fort.34 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.gui
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.ppan
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-28.ppan
+temporary directory /jobfs/local/1296955.r-man2/tmp23213_hm1876 removed
+
+======================================================================================
+                  Resource Usage on 2019-08-18 13:34:54:
+   Job Id:             1296955.r-man2
+   Project:            ep0
+   Exit Status:        0
+   Service Units:      113.85
+   NCPUs Requested:    28                     NCPUs Used: 28              
+                                           CPU Time Used: 90:59:27                                   
+   Memory Requested:   66.0GB                Memory Used: 12.27GB         
+   Walltime requested: 48:00:00            Walltime Used: 03:15:10        
+   JobFS requested:    16.0GB                 JobFS used: 167.0MB         
+======================================================================================

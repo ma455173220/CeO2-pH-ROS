@@ -1,0 +1,26 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/4894136.gadi-pbs
+CRY17_EXEDIR - directory with crystal executables: /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64
+CRY17_UTILS - running scripts and misc: /g/data/ep0/crystal17/utils17/runcry17, runprop17, runcry17-MPP
+CRY2K6_GRA - graphical scripts: /g/data/ep0/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-01.out
+crystal executable in /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64/v1.0.2
+input data in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-01.d12
+creating temporary directory /jobfs/4894136.gadi-pbs/tmp37596_hm1876
+CRYSTAL data /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-01.f9 not found or empty
+external geometry input from /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-01.gui
+external geometry input saved in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-01_inp.gui
+crystal job running in /jobfs/4894136.gadi-pbs/tmp37596_hm1876 ...
+
+======================================================================================
+                  Resource Usage on 2020-04-30 16:32:12:
+   Job Id:             4894136.gadi-pbs
+   Project:            ep0
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      508.91
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 253:36:06                                  
+   Memory Requested:   96.0GB                Memory Used: 14.28GB         
+   Walltime requested: 48:00:00            Walltime Used: 05:18:04        
+   JobFS requested:    13.0GB                 JobFS used: 67.97MB         
+======================================================================================

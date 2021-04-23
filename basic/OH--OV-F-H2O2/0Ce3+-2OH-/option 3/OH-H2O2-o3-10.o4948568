@@ -1,0 +1,38 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/4948568.gadi-pbs
+CRY17_EXEDIR - directory with crystal executables: /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64
+CRY17_UTILS - running scripts and misc: /g/data/ep0/crystal17/utils17/runcry17, runprop17, runcry17-MPP
+CRY2K6_GRA - graphical scripts: /g/data/ep0/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.out
+crystal executable in /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64/v1.0.2
+input data in /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.d12
+creating temporary directory /jobfs/4948568.gadi-pbs/tmp15013_hm1876
+scf guess from /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.f9
+external geometry input from /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.gui
+external geometry input saved in /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10_inp.gui
+opt info from /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optinfo
+crystal job running in /jobfs/4948568.gadi-pbs/tmp15013_hm1876 ...
+wave function binary file /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.f9
+history of geometry during optimization - file optc118 optc119 optc120 optc121 optc122 optc123 optc124 optc125 optc126 optc127 optc128 optc130 optc131 optc132 optc133 optc134 optc135 optc137 optc138 optc139 optc140 optc141 optc142 optc143 optc145 optc146 optc147 optc149 optc150 optc151 optc152 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc118 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc119 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc120 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc121 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc122 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc123 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc124 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc125 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc126 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc127 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc128 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc130 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc131 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc132 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc133 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc134 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc135 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc137 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc138 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc139 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc140 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc141 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc142 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc143 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc145 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc146 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc147 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc149 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc150 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc151 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optstory/optc152
+file HESSOPT.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.hessopt
+file OPTINFO.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.optinfo
+file SCFOUT.LOG saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.SCFLOG
+file fort.20 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.f20
+file fort.33 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.xyz
+geometry input file fort.34 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.gui
+file PPAN.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.ppan
+file PPAN.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option3/CeO2-10.ppan
+temporary directory /jobfs/4948568.gadi-pbs/tmp15013_hm1876 removed
+
+======================================================================================
+                  Resource Usage on 2020-05-03 11:24:02:
+   Job Id:             4948568.gadi-pbs
+   Project:            ep0
+   Exit Status:        0
+   Service Units:      3430.67
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 1712:57:21                                 
+   Memory Requested:   96.0GB                Memory Used: 21.19GB         
+   Walltime requested: 48:00:00            Walltime Used: 35:44:10        
+   JobFS requested:    13.0GB                 JobFS used: 175.43MB        
+======================================================================================

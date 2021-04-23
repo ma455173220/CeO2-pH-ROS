@@ -1,0 +1,38 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/4256755.gadi-pbs
+CRY17_EXEDIR - directory with crystal executables: /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64
+CRY17_UTILS - running scripts and misc: /g/data/ep0/crystal17/utils17/runcry17, runprop17, runcry17-MPP
+CRY2K6_GRA - graphical scripts: /g/data/ep0/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.out
+crystal executable in /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64/v1.0.2
+input data in /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.d12
+creating temporary directory /jobfs/4256755.gadi-pbs/tmp35729_hm1876
+scf guess from /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.f9
+external geometry input from /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.gui
+external geometry input saved in /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06_inp.gui
+opt info from /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.optinfo
+crystal job running in /jobfs/4256755.gadi-pbs/tmp35729_hm1876 ...
+wave function binary file /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.f9
+history of geometry during optimization - file optc140 optc141 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.optstory/optc140 /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.optstory/optc141
+file HESSOPT.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.hessopt
+file OPTINFO.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.optinfo
+file SCFOUT.LOG saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.SCFLOG
+file fort.20 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.f20
+file fort.33 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.xyz
+geometry input file fort.34 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.gui
+file PPAN.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.ppan
+file PPAN.DAT saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-OH--8H2O/OH--OV-F-H2O2/0Ce3+-2OH-/option1/CeO2-06.ppan
+temporary directory /jobfs/4256755.gadi-pbs/tmp35729_hm1876 removed
+
+======================================================================================
+                  Resource Usage on 2020-04-10 09:53:50:
+   Job Id:             4256755.gadi-pbs
+   Project:            ep0
+   Exit Status:        0
+   Service Units:      175.52
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 87:34:31                                   
+   Memory Requested:   96.0GB                Memory Used: 19.95GB         
+   Walltime requested: 48:00:00            Walltime Used: 01:49:42        
+   JobFS requested:    13.0GB                 JobFS used: 172.32MB        
+======================================================================================

@@ -1,0 +1,29 @@
+stty: 'standard input': Inappropriate ioctl for device
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/fort.79': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/optc*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/SCFOUT.LOG': No such file or directory
+find: '/jobfs/892769.gadi-pbs/tmp*/opt*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/optc*': No such file or directory
+find: '/jobfs/892769.gadi-pbs/tmp*/opt*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/optc*': No such file or directory
+find: '/jobfs/892769.gadi-pbs/tmp*/opt*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/optc*': No such file or directory
+find: '/jobfs/892769.gadi-pbs/tmp*/opt*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/optc*': No such file or directory
+find: '/jobfs/892769.gadi-pbs/tmp*/opt*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/HESSOPT.DAT': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/opta*': No such file or directory
+cp: cannot stat '/jobfs/892769.gadi-pbs/tmp*/optc*': No such file or directory
+find: '/jobfs/892769.gadi-pbs/tmp*/opt*': No such file or directory
+ls: No match.
+ls: No match.

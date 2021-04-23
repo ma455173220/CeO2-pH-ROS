@@ -1,0 +1,76 @@
+#!/bin/bash
+#PBS -P ep0
+#PBS -q normal 
+#PBS -l walltime=48:00:00,jobfs=100GB
+#PBS -l mem=192GB
+#PBS -l ncpus=48
+#PBS -l storage=scratch/ep0
+#Do not change the project code here even though you are not a member of ep0
+
+source /scratch/ep0/crystal17-avx/cry17-jobfs-avx512-icc-pgo.bashrc  #Do not change the project code here even though you are not a member of ep0
+
+                                                        #If you have multiple jobs running in the same folder
+                                                        #make sure you change the temorary directory location
+
+TMPFOLDER="tmp-CeO2-06"                                        #CHANGE TEMPORARY DIRECTORY NAME
+
+JOBNAME="CeO2-06"                 #CHANGE FILENAME
+
+                                                        #Please ignore everything below this line
+                                                        ##########################################################
+
+cd $PBS_O_WORKDIR                                       #This line allows the job to start from the bash script location (removes the need for ../../../../../short/etc...)
+
+PBS_ID=`echo $0 | awk -F '.' '{print $1}' | awk -F '/' '{print $NF}'`
+#echo $PBS_ID
+HOURS=`grep -m 1 'walltime' $0 | awk -F ':' '{print $1}' | awk -F '=' '{print $NF}'`
+MINS=`grep -m 1 'walltime' $0 | awk -F ':' '{print $2}' | awk -F '=' '{print $NF}'`
+SECOND=`grep -m 1 'walltime' $0 | awk -F ':' '{print $3}' | awk -F ',' '{print $1}'`
+TIME_APPLIED=`expr $HOURS \* 3600 + $MINS \* 60 + $SECOND`
+TIME_APPLIED_EDIT=`expr $TIME_APPLIED - 120`         # 2 mins ealier since as the last backup cannot occur when the job is killed
+
+
+tmp_check () {
+TMP=$1                                          #This code will create a new temporary directory if it does not exist in the folder already
+        if [ -d "$TMP" ]
+                then
+                        rm -r $TMP/*
+                        echo "tmp directory exists!" >> $TMP/Backup.log
+                else
+                        mkdir $TMP
+                        echo "tmp directory not found! New tmp directory automatically created." >> $TMP/Backup.log
+        fi
+}
+
+do_copy () {                                            #This code will automatically backup your data from the JOB_FS directory into the tmp directory every hour
+MAX=$1                                                  
+TMP=$2
+
+STARTTIME=$(date +%s)
+
+COUNTER=0
+echo "$COUNTER - Job Started at $(date)" >> $TMP/Backup.log 
+while [ $COUNTER -le $MAX ]; do
+	sleep 600
+	cp $PBS_JOBFS/tmp*/fort.79 $PBS_JOBFS/tmp*/fort.20 $PBS_JOBFS/tmp*/FREQINFO.DAT $PBS_JOBFS/tmp*/OPTINFO.DAT $PBS_JOBFS/tmp*/HESSOPT.DAT $PBS_JOBFS/tmp*/opta* $PBS_JOBFS/tmp*/optc* $PBS_JOBFS/tmp*/SCFOUT.LOG  $TMP/ 
+	(( COUNTER++ ))
+	echo "$COUNTER - Backed up at $(date)" >> $TMP/Backup.log
+	sh /g/data/ep0/crystal17/energy_analyse.sh $JOBNAME.out 1>/dev/null
+	ENDTIME=$(date +%s)
+	DIFF=$(expr $ENDTIME - $STARTTIME)
+	DIFF_EDIT=$(expr $DIFF + 600)
+	if [[ $DIFF_EDIT -gt $TIME_APPLIED_EDIT ]] ; then       
+		echo "$COUNTER - Final backup at $(date)" >> $TMP/Backup.log
+		qdel $PBS_ID
+	fi
+done
+}
+
+MAXCOUNTER=1000                                       
+tmp_check $TMPFOLDER                                    #Runs the tmp_check code for the directory name allocated in TMPFOLDER
+do_copy $MAXCOUNTER $TMPFOLDER &                        #Runs the automatic copy code with the MAXCOUNTER and TMPFOLDER inputs
+
+/scratch/ep0/crystal17-avx/utils17/runcry17-P $JOBNAME $JOBNAME $JOBNAME $JOBNAME
+#Do not change the project code here even though you are not a member of ep0
+
+kill %1                                                 #Kills the script if the job is finished/killed prematurely

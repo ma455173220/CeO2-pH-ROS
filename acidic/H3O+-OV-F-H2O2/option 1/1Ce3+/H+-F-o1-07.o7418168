@@ -1,0 +1,28 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/7418168.gadi-pbs
+CRY17_EXEDIR - directory with crystal executables: /scratch/ep0/crystal17-avx/crystal17_avx512def_icc_pgo/bin/Linux-ifort_openmpi-2.1_i64
+CRY17_UTILS - running scripts and misc: /scratch/ep0/crystal17-avx/crystal17_avx512def_icc_pgo/utils17/runcry17, runprop17, runcry17-MPP
+CRY2K6_GRA - graphical scripts: /scratch/ep0/crystal17-avx/crystal17_avx512def_icc_pgo/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-F-H2O2/option1/1Ce3+/CeO2-07.out
+crystal executable in /scratch/ep0/crystal17-avx/crystal17_avx512def_icc_pgo/bin/Linux-ifort_openmpi-2.1_i64/v1.0.2
+input data in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-F-H2O2/option1/1Ce3+/CeO2-07.d12
+creating temporary directory /jobfs/7418168.gadi-pbs/tmp29910_hm1876
+scf guess from /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-F-H2O2/option1/1Ce3+/CeO2-07.f9
+external geometry input from /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-F-H2O2/option1/1Ce3+/CeO2-07.gui
+external geometry input saved in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-F-H2O2/option1/1Ce3+/CeO2-07_inp.gui
+opt info from /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-F-H2O2/option1/1Ce3+/CeO2-07.optinfo
+crystal job running in /jobfs/7418168.gadi-pbs/tmp29910_hm1876 ...
+7477059.gadi-pbs
+
+======================================================================================
+                  Resource Usage on 2020-06-21 14:57:54:
+   Job Id:             7418168.gadi-pbs
+   Project:            ep0
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      4604.93
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 2297:51:43                                 
+   Memory Requested:   96.0GB                Memory Used: 21.24GB         
+   Walltime requested: 48:00:00            Walltime Used: 47:58:05        
+   JobFS requested:    13.0GB                 JobFS used: 174.66MB        
+======================================================================================

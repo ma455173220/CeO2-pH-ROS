@@ -1,0 +1,31 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/5192597.gadi-pbs
+CRY17_EXEDIR - directory with crystal executables: /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64
+CRY17_UTILS - running scripts and misc: /g/data/ep0/crystal17/utils17/runcry17, runprop17, runcry17-MPP
+CRY2K6_GRA - graphical scripts: /g/data/ep0/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3/CeO2-10.out
+crystal executable in /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64/v1.0.2
+input data in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3/CeO2-10.d12
+creating temporary directory /jobfs/5192597.gadi-pbs/tmp23185_hm1876
+scf guess from /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3/CeO2-10.f9
+external geometry input from /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3/CeO2-10.gui
+external geometry input saved in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3/CeO2-10_inp.gui
+crystal job running in /jobfs/5192597.gadi-pbs/tmp23185_hm1876 ...
+SCF abnormal end - no wf written in fort.9
+file fort.20 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3/CeO2-10.f20
+file fort.33 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3/CeO2-10.xyz
+geometry input file fort.34 saved as /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option3/CeO2-10.gui
+temporary directory /jobfs/5192597.gadi-pbs/tmp23185_hm1876 removed
+
+======================================================================================
+                  Resource Usage on 2020-05-08 14:07:56:
+   Job Id:             5192597.gadi-pbs
+   Project:            ep0
+   Exit Status:        0
+   Service Units:      426.80
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 159:58:44                                  
+   Memory Requested:   96.0GB                Memory Used: 14.28GB         
+   Walltime requested: 48:00:00            Walltime Used: 04:26:45        
+   JobFS requested:    13.0GB                 JobFS used: 166.91MB        
+======================================================================================

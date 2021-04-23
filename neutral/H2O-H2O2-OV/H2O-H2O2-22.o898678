@@ -1,0 +1,37 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/local/898678.r-man2
+CRY17_EXEDIR - directory with crystal executables: /home/561/hm1876/crystal/crystal17/bin/Linux-ifort17_XE_emt64
+CRY17_UTILS - running scripts and misc: /home/561/hm1876/crystal/crystal17/utils17/runcry17, runprop17
+CRY2K6_GRA - graphical scripts: /home/561/hm1876/crystal/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.out
+crystal executable in /home/561/hm1876/crystal/crystal17/bin/Linux-ifort17_XE_emt64/v1.0.2
+input data in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.d12
+creating temporary directory /jobfs/local/898678.r-man2/tmp36597_hm1876
+scf guess from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.f9
+external geometry input from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.gui
+external geometry input saved in /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22_inp.gui
+opt info from /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.optinfo
+crystal job running in /jobfs/local/898678.r-man2/tmp36597_hm1876 ...
+wave function binary file /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.f9
+file fort.98 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.f98
+history of geometry during optimization - file optc001 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.optstory/optc001
+file OPTINFO.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.optinfo
+file fort.20 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.f20
+file fort.33 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.xyz
+geometry input file fort.34 saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.gui
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.ppan
+file PPAN.DAT saved as /short/ep0/hm1876/CeO2/PH/CeO2-9H2O/H2O-H2O2-OV/CeO2-22.ppan
+temporary directory /jobfs/local/898678.r-man2/tmp36597_hm1876 removed
+
+======================================================================================
+                  Resource Usage on 2019-08-03 12:01:07:
+   Job Id:             898678.r-man2
+   Project:            ep0
+   Exit Status:        0
+   Service Units:      50.89
+   NCPUs Requested:    28                     NCPUs Used: 28              
+                                           CPU Time Used: 40:37:33                                   
+   Memory Requested:   66.0GB                Memory Used: 11.17GB         
+   Walltime requested: 48:00:00            Walltime Used: 01:27:14        
+   JobFS requested:    16.0GB                 JobFS used: 165.59MB        
+======================================================================================

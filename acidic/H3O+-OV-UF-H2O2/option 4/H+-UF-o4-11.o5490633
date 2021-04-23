@@ -1,0 +1,27 @@
+CRY17_SCRDIR - scratch directory (integrals and temp files): /jobfs/5490633.gadi-pbs
+CRY17_EXEDIR - directory with crystal executables: /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64
+CRY17_UTILS - running scripts and misc: /g/data/ep0/crystal17/utils17/runcry17, runprop17, runcry17-MPP
+CRY2K6_GRA - graphical scripts: /g/data/ep0/crystal17/crgra2006/maps06, doss06, band06
+CRY17_TEST - directory with test cases:
+output data in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-11.out
+crystal executable in /g/data/ep0/crystal17/bin/Linux-ifort17_XE_emt64/v1.0.2
+input data in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-11.d12
+creating temporary directory /jobfs/5490633.gadi-pbs/tmp65218_hm1876
+scf guess from /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-11.f9
+external geometry input from /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-11.gui
+external geometry input saved in /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-11_inp.gui
+opt info from /scratch/ep0/hm1876/CeO2/PH/CeO2-H3O+-8H2O/H3O+-OV-UF-H2O2/option4/CeO2-11.optinfo
+crystal job running in /jobfs/5490633.gadi-pbs/tmp65218_hm1876 ...
+
+======================================================================================
+                  Resource Usage on 2020-05-17 09:22:24:
+   Job Id:             5490633.gadi-pbs
+   Project:            ep0
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      1798.64
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 896:36:17                                  
+   Memory Requested:   96.0GB                Memory Used: 19.72GB         
+   Walltime requested: 48:00:00            Walltime Used: 18:44:09        
+   JobFS requested:    13.0GB                 JobFS used: 171.37MB        
+======================================================================================
